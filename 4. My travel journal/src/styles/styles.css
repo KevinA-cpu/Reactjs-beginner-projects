@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  background-color: #f55a5a;
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.header > p {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.location > img {
+  width: 250px;
+  height: 310px;
+  border-radius: 10px;
+  margin-right: 27px;
+}
+
+.url-section {
+  display: flex;
+  align-items: center;
+}
+
+.url-section > h1 {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2b283a;
+}
+
+.url-section > h1 > i {
+  color: #f55a5a;
+}
+
+.url-section > h1 > a {
+  font-size: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+  margin-left: 15px;
+  color: #918e9b;
+}
+
+.des-section {
+  margin: 0px;
+}
+
+.des-section > h1 {
+  margin-top: 15px;
+  width: 326px;
+
+  margin-bottom: 35px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #2b283a;
+}
+
+.des-section > h2 {
+  width: 326px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+
+.des-section > p {
+  width: 326px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.85px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #2b283a;
+}

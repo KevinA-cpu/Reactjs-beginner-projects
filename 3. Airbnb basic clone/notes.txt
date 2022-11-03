@@ -1,0 +1,11 @@
+can use the following three to add a logo in the background
+instead of img
+background-image: url();
+background-repeat: no-repeat;
+background-position(-x or -y): ;
+conditional rendering:
+{props.setup && <h3>Setup: {props.setup}</h3>}
+if props.setup is not empty => render h3
+in css:
+display: props.setup ? "block" : "none"
+you can pass none-string value in props using {} like in vanilla javascript

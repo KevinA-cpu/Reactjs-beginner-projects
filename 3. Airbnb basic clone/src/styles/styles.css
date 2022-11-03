@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+}
+
+.navbar {
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > img {
+  width: 82.02px;
+  height: 25.35px;
+  margin: 20px 20px;
+  max-width: 100px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero > img {
+  width: 395.91px;
+  height: 232px;
+  margin-top: 25px;
+  max-width: 400px;
+}
+
+.text {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.text > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  /* identical to box height, or 40px */
+
+  color: #000000;
+}
+
+.text > p {
+  width: 320px;
+  height: 56px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  /* or 18px */
+
+  color: #222222;
+}
+
+.card {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.card > img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.rating > img {
+  height: 14px;
+  border-radius: 0.5px;
+}
+
+.rating > p {
+  margin: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #222222;
+}
+
+.score {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #918e9b;
+}
+
+.cards {
+  display: flex;
+  overflow: scroll;
+}
+
+.card > p {
+  margin-top: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+  color: #222222;
+}
+
+.status {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 110%;
+  /* or 11px */
+
+  text-align: center;
+
+  color: #222222;
+  background-color: white;
+  border-radius: 2px;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
